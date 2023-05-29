@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentation
 {
-    public partial class FlowMaster : Form
+    public partial class FormFlowMaster : Form
     {
-        public FlowMaster()
+        public FormFlowMaster()
         {
             InitializeComponent();
         }
