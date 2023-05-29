@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EA368D46-A3A0-4B61-B4D7-1E4FFB8A9419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{327A5E38-126A-4517-BBE1-5CB2A00BA24C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{64866C63-BE5E-4088-9524-09FDBD19BBC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BF03B9E9-8F8A-48E0-83FF-5231AE1D2908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{10220A8C-22CB-4300-941D-C94259A54549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10220A8C-22CB-4300-941D-C94259A54549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10220A8C-22CB-4300-941D-C94259A54549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10220A8C-22CB-4300-941D-C94259A54549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10220A8C-22CB-4300-941D-C94259A54549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10220A8C-22CB-4300-941D-C94259A54549} = {EA368D46-A3A0-4B61-B4D7-1E4FFB8A9419}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88853A13-356F-4252-A1DD-7590D31137A3}
+	EndGlobalSection
+EndGlobal
