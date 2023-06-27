@@ -79,83 +79,119 @@
     <Compile Include="FormFlowMaster.Designer.cs">
       <DependentUpon>FormFlowMaster.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Clientes.cs">
+    <Compile Include="Forms\Clientes\ClientesForms\DetalleSucursal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Clientes.Designer.cs">
-      <DependentUpon>Clientes.cs</DependentUpon>
+    <Compile Include="Forms\Clientes\ClientesForms\DetalleSucursal.Designer.cs">
+      <DependentUpon>DetalleSucursal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Dashboard.cs">
+    <Compile Include="Forms\Empleados\EmpleadosForms\AreaEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <Compile Include="Forms\Empleados\EmpleadosForms\AreaEmpleado.Designer.cs">
+      <DependentUpon>AreaEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Empleados.cs">
+    <Compile Include="Forms\Empleados\EmpleadosForms\GrupoEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Empleados.Designer.cs">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <Compile Include="Forms\Empleados\EmpleadosForms\GrupoEmpleado.Designer.cs">
+      <DependentUpon>GrupoEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Inicio.cs">
+    <Compile Include="Forms\FrmAboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Inicio.Designer.cs">
+    <Compile Include="Forms\FrmAboutBox.Designer.cs">
+      <DependentUpon>FrmAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\FrmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\FrmCliente.Designer.cs">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\ClientesForms\DetalleCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\ClientesForms\DetalleCliente.Designer.cs">
+      <DependentUpon>DetalleCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dashboard\FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dashboard\FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Empleados\FrmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Empleados\FrmEmpleados.Designer.cs">
+      <DependentUpon>FrmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Empleados\EmpleadosForms\DetalleEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Empleados\EmpleadosForms\DetalleEmpleado.Designer.cs">
+      <DependentUpon>DetalleEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inicio\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inicio\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Login.cs">
+    <Compile Include="Forms\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mantenimiento.cs">
+    <Compile Include="Forms\Mentenimiento\FrmMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Mantenimiento.Designer.cs">
-      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    <Compile Include="Forms\Mentenimiento\FrmMantenimiento.Designer.cs">
+      <DependentUpon>FrmMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\CambiarContraseña.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\CambiarContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\CambiarContraseña.Designer.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\CambiarContraseña.Designer.cs">
       <DependentUpon>CambiarContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\DBconfig.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\DBconfig.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\DBconfig.Designer.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\DBconfig.Designer.cs">
       <DependentUpon>DBconfig.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\GruposUsuarios.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\GruposUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\GruposUsuarios.Designer.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\GruposUsuarios.Designer.cs">
       <DependentUpon>GruposUsuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\Permisos.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\Permisos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\Permisos.Designer.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\Permisos.Designer.cs">
       <DependentUpon>Permisos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\Usuarios.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Mentenimiento\Usuarios.Designer.cs">
+    <Compile Include="Forms\Mentenimiento\SubForms\Usuarios.Designer.cs">
       <DependentUpon>Usuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Pedidos.cs">
+    <Compile Include="Forms\Pedidos\FrmPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Pedidos.Designer.cs">
-      <DependentUpon>Pedidos.cs</DependentUpon>
+    <Compile Include="Forms\Pedidos\FrmPedidos.Designer.cs">
+      <DependentUpon>FrmPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Reportes.cs">
+    <Compile Include="Forms\Reportes\FrmReportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Reportes.Designer.cs">
-      <DependentUpon>Reportes.cs</DependentUpon>
+    <Compile Include="Forms\Reportes\FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -163,38 +199,62 @@
     <EmbeddedResource Include="FormFlowMaster.resx">
       <DependentUpon>FormFlowMaster.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Clientes.resx">
-      <DependentUpon>Clientes.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Clientes\ClientesForms\DetalleSucursal.resx">
+      <DependentUpon>DetalleSucursal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Empleados\EmpleadosForms\AreaEmpleado.resx">
+      <DependentUpon>AreaEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Empleados.resx">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Empleados\EmpleadosForms\GrupoEmpleado.resx">
+      <DependentUpon>GrupoEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mantenimiento.resx">
-      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmAboutBox.resx">
+      <DependentUpon>FrmAboutBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mentenimiento\CambiarContraseña.resx">
+    <EmbeddedResource Include="Forms\Clientes\FrmCliente.resx">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\ClientesForms\DetalleCliente.resx">
+      <DependentUpon>DetalleCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dashboard\FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Empleados\FrmEmpleados.resx">
+      <DependentUpon>FrmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Empleados\EmpleadosForms\DetalleEmpleado.resx">
+      <DependentUpon>DetalleEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inicio\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mentenimiento\FrmMantenimiento.resx">
+      <DependentUpon>FrmMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mentenimiento\SubForms\CambiarContraseña.resx">
       <DependentUpon>CambiarContraseña.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mentenimiento\DBconfig.resx">
+    <EmbeddedResource Include="Forms\Mentenimiento\SubForms\DBconfig.resx">
       <DependentUpon>DBconfig.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mentenimiento\GruposUsuarios.resx">
+    <EmbeddedResource Include="Forms\Mentenimiento\SubForms\GruposUsuarios.resx">
       <DependentUpon>GruposUsuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mentenimiento\Permisos.resx">
+    <EmbeddedResource Include="Forms\Mentenimiento\SubForms\Permisos.resx">
       <DependentUpon>Permisos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mentenimiento\Usuarios.resx">
+    <EmbeddedResource Include="Forms\Mentenimiento\SubForms\Usuarios.resx">
       <DependentUpon>Usuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Pedidos.resx">
-      <DependentUpon>Pedidos.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Pedidos\FrmPedidos.resx">
+      <DependentUpon>FrmPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Reportes.resx">
-      <DependentUpon>Reportes.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Reportes\FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -234,5 +294,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

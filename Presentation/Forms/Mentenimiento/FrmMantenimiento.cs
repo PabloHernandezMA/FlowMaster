@@ -11,11 +11,11 @@ using Presentation.Forms.Mentenimiento;
 
 namespace Presentation.Forms
 {
-    public partial class Mantenimiento : Form
+    public partial class FrmMantenimiento : Form
     {
         private Form currentChildForm;
 
-        public Mantenimiento()
+        public FrmMantenimiento()
         {
             InitializeComponent();
         }

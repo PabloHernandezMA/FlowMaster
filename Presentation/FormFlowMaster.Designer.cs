@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnAbout = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.btnMantenimiento = new FontAwesome.Sharp.IconButton();
             this.btnEmpleados = new FontAwesome.Sharp.IconButton();
@@ -42,18 +44,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.labelUser = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.iniciarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(42)))), ((int)(((byte)(67)))));
+            this.panelMenu.Controls.Add(this.btnAbout);
             this.panelMenu.Controls.Add(this.btnSalir);
             this.panelMenu.Controls.Add(this.btnMantenimiento);
             this.panelMenu.Controls.Add(this.btnEmpleados);
@@ -67,6 +73,28 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(220, 661);
             this.panelMenu.TabIndex = 0;
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnAbout.FlatAppearance.BorderSize = 0;
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbout.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnAbout.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
+            this.btnAbout.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnAbout.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAbout.IconSize = 40;
+            this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbout.Location = new System.Drawing.Point(0, 541);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnAbout.Size = new System.Drawing.Size(220, 60);
+            this.btnAbout.TabIndex = 8;
+            this.btnAbout.Text = "Acerca de";
+            this.btnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAbout.UseVisualStyleBackColor = true;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // btnSalir
             // 
@@ -302,6 +330,7 @@
             // labelUser
             // 
             this.labelUser.AutoSize = true;
+            this.labelUser.ContextMenuStrip = this.contextMenuStrip1;
             this.labelUser.Dock = System.Windows.Forms.DockStyle.Right;
             this.labelUser.Font = new System.Drawing.Font("Segoe UI", 20.25F);
             this.labelUser.ForeColor = System.Drawing.Color.Gainsboro;
@@ -311,6 +340,22 @@
             this.labelUser.Size = new System.Drawing.Size(151, 47);
             this.labelUser.TabIndex = 2;
             this.labelUser.Text = "UserName";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iniciarSesiónToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.ShowImageMargin = false;
+            this.contextMenuStrip1.Size = new System.Drawing.Size(161, 48);
+            this.contextMenuStrip1.Text = "Usuario";
+            // 
+            // iniciarSesiónToolStripMenuItem
+            // 
+            this.iniciarSesiónToolStripMenuItem.Name = "iniciarSesiónToolStripMenuItem";
+            this.iniciarSesiónToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.iniciarSesiónToolStripMenuItem.Text = "Iniciar / Cerrar sesión";
+            this.iniciarSesiónToolStripMenuItem.Click += new System.EventHandler(this.iniciarSesiónToolStripMenuItem_Click);
             // 
             // lblTitleChildForm
             // 
@@ -365,6 +410,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).EndInit();
             this.ResumeLayout(false);
 
@@ -389,6 +435,9 @@
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem iniciarSesiónToolStripMenuItem;
+        private FontAwesome.Sharp.IconButton btnAbout;
     }
 }
 

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentation.Forms
+namespace Presentation.Forms.Clientes.ClientesForms
 {
-    public partial class Pedidos : Form
+    public partial class DetalleSucursal : Form
     {
-        public Pedidos()
+        public DetalleSucursal()
         {
             InitializeComponent();
         }

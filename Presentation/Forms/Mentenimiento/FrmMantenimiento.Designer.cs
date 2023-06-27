@@ -1,6 +1,6 @@
 ﻿namespace Presentation.Forms
 {
-    partial class Mantenimiento
+    partial class FrmMantenimiento
     {
         /// <summary>
         /// Required designer variable.

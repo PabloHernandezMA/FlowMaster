@@ -1,6 +1,6 @@
 ﻿namespace Presentation.Forms
 {
-    partial class Reportes
+    partial class FrmReportes
     {
         /// <summary>
         /// Required designer variable.

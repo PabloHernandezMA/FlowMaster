@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentation.Forms
 {
-    public partial class Login : Form
+    public partial class FrmDashboard : Form
     {
-        public Login()
+        public FrmDashboard()
         {
             InitializeComponent();
         }

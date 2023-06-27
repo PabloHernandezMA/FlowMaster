@@ -1,6 +1,6 @@
 ﻿namespace Presentation.Forms
 {
-    partial class Dashboard
+    partial class FrmDashboard
     {
         /// <summary>
         /// Required designer variable.

@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Presentation.Forms
 {
-    public partial class Dashboard : Form
+    public partial class FrmReportes : Form
     {
-        public Dashboard()
+        public FrmReportes()
         {
             InitializeComponent();
+        }
+
+        private void Reportes_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
+            
         }
     }
 }

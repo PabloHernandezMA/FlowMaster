@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using Presentation.Forms;
+using Presentation.Forms.Empleados.EmpleadosForms;
 
 namespace Presentation
 {
@@ -124,44 +125,57 @@ namespace Presentation
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new Dashboard());
+            OpenChildForm(new FrmDashboard());
         }
 
         private void btnPedidos_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new Pedidos());
+            OpenChildForm(new FrmPedidos());
         }
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new Reportes());
+            OpenChildForm(new FrmReportes());
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new Clientes());
+            OpenChildForm(new FrmCliente());
         }
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Empleados());
+            OpenChildForm(new FrmEmpleados());
         }
 
         private void btnMantenimiento_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new Mantenimiento());
+            OpenChildForm(new FrmMantenimiento());
         }
-        
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            FrmAboutBox formulario = FrmAboutBox.ObtenerInstancia();
+            formulario.BringToFront(); 
+            formulario.Show();
+        }
+
         //Close-Maximize-Minimize
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        private void iniciarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmLogin formulario = FrmLogin.ObtenerInstancia();
+            formulario.BringToFront();
+            formulario.Show();
+        }
     }
 }
